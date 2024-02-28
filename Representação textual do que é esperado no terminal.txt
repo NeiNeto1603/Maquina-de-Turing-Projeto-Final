@@ -1,0 +1,42 @@
+Representação textual do que seria esperado no terminal para a main, passo a passo:
+
+Imagine que você tenha o seguinte conteúdo nos arquivos:
+
+program_config.txt:
+
+q0,0,q0,0,R
+q0,1,q0,1,R
+q0,B,q1,B,_
+
+input_tape.txt:
+
+0101
+
+A execução do código geraria saídas semelhantes às seguintes no terminal:
+
+1.	Adicionando transições:
+
+State: q0, Tape: 0101
+State: q0, Tape: 0101
+State: q0, Tape: 0101
+
+2.	Carregando fita de entrada:
+
+State: q0, Tape: 0101
+
+3.	Executando a Máquina de Turing:
+
+State: q0, Tape: 0101
+State: q0, Tape: 01_1
+State: q0, Tape: 010_1
+State: q1, Tape: 0101_
+
+4.	Salvando a fita resultante:
+
+(Nenhuma saída no terminal, pois o `print` está dentro do loop da execução)
+
+5.	Conteúdo do output_tape.txt:
+
+0101_
+
+Essa seria uma representação do que seria mostrado no terminal ao executar o código com os dados de entrada fornecidos. A cada passo, é exibido o estado atual da Máquina de Turing e a configuração da fita. O resultado final é salvo no arquivo "output_tape.txt".
