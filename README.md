@@ -1,4 +1,4 @@
-# M-quina-de-Turing-Projeto-Final
+# Maquina-de-Turing-Projeto-Final
 Projeto Final para aula do Della
 
 Como configurar os arquivos program_config.txt e input_tape.txt para o seu simulador de Máquina de Turing.
