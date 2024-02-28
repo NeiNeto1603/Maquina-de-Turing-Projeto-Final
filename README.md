@@ -1,6 +1,8 @@
 # Maquina-de-Turing-Projeto-Final
 Projeto Final para aula do Della
 
+Linguagem de Programação: Phyton 
+
 Como configurar os arquivos program_config.txt e input_tape.txt para o seu simulador de Máquina de Turing.
 1. Arquivo program_config.txt
 O arquivo program_config.txt é utilizado para definir as transições da Máquina de Turing. Cada linha representa uma transição no formato:
